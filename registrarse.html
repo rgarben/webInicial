@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="class.css">
+</head>
+<body>
+    <h1 class="banner">Creador de cesta de navidad</h2>
+    <br>
+    <div class="botones">
+        <a class="boton" href="./index.html">Principal</a>
+        <a class="boton" href="./crearcesta.html">Crear cesta</a>
+        <a class="boton" href="./registrarse.html">Registrarse</a>
+    </div>
+    <div class="fondo">
+        <form class="formulario" action="www.servidorlocal.edu/programa.php" method="post">
+            <fieldset style="width:30%">
+            <p>Nombre:<input type="text" name="Nombre" size="40" required></p>
+            <p>Apellidos:<input type="text" name="Apellidos" size="40"></p>
+            <p>Direccion:<input type="text" name="direccion" size="40"></p>
+            <p>Localidad:<input type="text" name="Localidad" size="40"></p>
+            <p>Provincia:<input type="text" name="Provincia" size="40"></p>
+            <p>CP:<input type="number" name="cp" size="40"></p>
+            <p>Telefono:<input type="number" name="telefono" size="40"></p>
+            <p>Email:<input type="text" name="correoelectronico" size="40" required></p>
+            <p>Tipo envio:
+                <input type="radio" name="hm" value="Ordinario"> Ordinario
+                <input type="radio" name="hm" value="Express"> Envio Express
+            </p>
+            <p>¿Suscribirse al boletín?:
+                <input type="radio" name="hm" value="Si"> Si
+                <input type="radio" name="hm" value="No"> No
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+            </fieldset>
+        </form>
+
+    </div>
+    <div class="pie">
+        <span class="letrasPie">Tus mejores cestas al mejor precio! Contacto: cestapersonalizasa@cesper.es</span>
+    </div>
+    <script text="text/javascript" src="./script.js"></script>
+</body>
+</html>
