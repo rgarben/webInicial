@@ -8,6 +8,11 @@ let textoValor = document.getElementById("texto");
 
 let columna = document.createElement("td");
 
+
+/*Al pulsar el boton añadir esta función busca si existe algun elemento en la tabla
+con el mismo valor, si no esta, te añade una fila con el valor indicado
+y si esta envia una alerta avisando que el producto ya existe*/
+
 botonAdd.addEventListener('click', function(){
 
     let fila = document.createElement("tr");
@@ -33,6 +38,10 @@ botonAdd.addEventListener('click', function(){
     }
 
 })
+
+
+/*Al pulsar el boton borrar esta función busca si existe algun elemento en la tabla
+para luego eliminar dicha fila del elemento*/
 
 botonBorrar.addEventListener('click', function(){
     
